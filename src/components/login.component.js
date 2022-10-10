@@ -1,7 +1,16 @@
 import React, { Component } from 'react'
+import { Navigate } from "react-router-dom";
+
+function   test(){
+  <Navigate to="/home" />
+}
+
 
 export default class Login extends Component {
-  render() {
+  render() 
+  
+ 
+  {
     return (
       <form>
         <h3>Sign In</h3>
@@ -38,9 +47,9 @@ export default class Login extends Component {
         </div>
 
         <div className="d-grid">
-          <a href="/home" type="submit" className="btn btn-primary">
+          <button onClick={test} type="submit" className="btn btn-primary">
             Login
-          </a>
+          </button>
         </div>
         <p className="forgot-password text-right">
           Forgot <a href="/">password?</a>
