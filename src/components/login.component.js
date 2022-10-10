@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Navigate } from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 
 export default class Login extends Component {
@@ -44,9 +44,9 @@ export default class Login extends Component {
         </div>
 
         <div className="d-grid">
-          <a href="/home" type="submit" className="btn btn-primary">
+          <Link to={'/home'} type="submit" className="btn btn-primary">
             Login
-          </a>
+          </Link>
         </div>
         <p className="forgot-password text-right">
           Forgot <a href="/">password?</a>
