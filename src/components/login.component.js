@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import axios from "axios";
 import Modal from 'react-bootstrap/Modal';
 const baseURL = "https://4oz4uozwhl.execute-api.us-east-1.amazonaws.com/api/v1/auth/authentication/login/access-token";
-const baseURL2 = "https://4oz4uozwhl.execute-api.us-east-1.amazonaws.com/api/v1/auth/authentication/login/access-token";
+const baseURL2 = "https://4oz4uozwhl.execute-api.us-east-1.amazonaws.com/api/v1/auth/authentication/login/access-token2";
 
 class Login extends React.Component {
 
